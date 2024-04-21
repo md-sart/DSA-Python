@@ -50,6 +50,14 @@ elif operacao == "-":
     resultado = subtracao(num1, num2)
     print ("O resultado desta operação é: ", resultado)
 
+elif operacao == "*":
+    resultado = multi(num1, num2)
+    print ("O resultado desta operação é: ", resultado)
+
+elif operacao == "/":
+    resultado = divisao(num1, num2)
+    print ("O resultado desta operação é: ", resultado)
+    
  #autor: neste laboratório quis fazer a calculadora de uma maneira diferente. utilizei funções para chamar as operações 
  # e loops while para validar as entradas.
 
